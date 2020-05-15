@@ -1,0 +1,116 @@
+#title{
+  background-color: #ff4c68;
+}
+h1
+{
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight:bold;
+}
+.container-fluid {
+  padding: 3% 15% 7% ;
+}
+title{
+font-family: 'Balsamiq Sans', cursive;
+}
+.title-image{
+
+  width: 60%;
+  transform: rotate(25deg);
+ position: absolute;
+}
+#features{
+  padding: 7% 15% 7% 15%;
+
+  position: relative;
+
+
+}
+.feature-box{
+  text-align: center;
+  padding: 4.5%;
+}
+h3{
+  font-family: 'Balsamiq Sans', cursive;
+}
+p{
+  color: #8f8f8f;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: red;
+}
+/*testimonials----->*/
+#testimonials {
+
+  text-align: center;
+  background-color: #ff4c68;
+
+}
+em{
+  color: white;
+}
+h2{
+  font-family: 'Balsamiq Sans-Bold', cursive;
+  font-size:3rem;
+  font-weight: bold;
+
+}
+.testimonial-img{
+  padding: 10px;
+  width: 15%;
+  border-radius: 100%;
+}
+#press{
+  background-color:  #ff4c68;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#pricing{
+  padding: 100px;
+text-align: center;
+}
+.pricing-colomn{
+  padding: 3% 2%;
+}
+@media (max-width:1028px) {
+
+#title{
+  text-align: center;
+}
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  background-color:#ff4c68;
+  text-color:#fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+.cta-heading{
+  font-family: 'Balsamiq Sans-Bold', cursive;
+  font-size: 3.5rem;
+
+}
+#footer{
+  background-color:#fff;
+  text-align: center;
+}
+.download-btn{
+margin: 10px auto 20px auto;
+}
+.social-icon{
+  margin: 20px 10px;
+}
